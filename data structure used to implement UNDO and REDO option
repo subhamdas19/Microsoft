@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/701131/data-structure-used-to-implement-undo-and-redo-option
+
+It isn't a data structure but a design pattern. You're looking for the Command Pattern.
+
+The standard is to keep the Command objects in a stack to support multi level undo. In order to support redo, a second stack keeps all the commands you've Undone. So when you pop the undo stack to undo a command, you push the same command you popped into the redo stack. You do the same thing in reverse when you redo a command. You pop the redo stack and push the popped command back into the undo stack.
