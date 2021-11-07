@@ -1,0 +1,20 @@
+
+Questions based on locked transactions in the banking sector. What will happen if 2 transactions are being made from the same account exactly at the same time? What are the different checks made by the bank to keep a check on frauds? I suggested some methods based on analytical thinking and observations from my daily life.  
+
+
+How to handle those cases where multiple people try to access the same operation at a time?
+
+If multiple threads access a single resource at a time then there exists a possibility of bad output. This unwanted phenomenon is defined as data racing.
+
+Suppose we have $100 in our joint bank account. To trick the banker, both of us can request $100 simultaneously at a time. The system will create an object, assign 2 threads and pass them to the withdrawal method. At the end of the process, both of us will have $100!
+
+
+To handle this problem engineers came up with the synchronization concept.
+
+Method 3: Incorporating synchronization with multithreading
+
+Synchronization provides a lock to the object and declares a sensitive area (withdraw & deposit methods). An object can have multiple threads but the sensitive area can only be accessed by 1 thread at a time. The thread scheduler chooses the order of execution of the threads. As it is a random process the output is different for each interpretation.
+
+Why should we use static synchronization?
+
+Say we have 5 thread classes with 1 object each. Each object have multiple threads. Now the sensitive area will be accessed by 5 threads at a time! To handle this problem engineers came up with the idea of static synchronization. We provide a lock to the class. The class will select 1 object at a time. The object in turn will choose 1 thread and pass it through the sensitive area.
