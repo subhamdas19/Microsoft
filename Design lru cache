@@ -1,0 +1,14 @@
+https://www.geeksforgeeks.org/lru-cache-implementation/
+
+The idea is to use a LinkedHashSet that maintains insertion order of elements. This way implementation becomes short and easy.
+
+real-life example of LRU cache
+The android home screen is a good use case for a very important data structure. In order to keep the most recently used apps on the home screen, we will need a  data structure that  keeps track of such applications and automatically removes the Least Recently  Used (LRU) app.  Our home screen has 12 slots, so the size of our LRU cache would 12.
+
+
+Design should take care of multi-threading 
+
+I like lots of these suggestions, but for now I think I'll stick with LinkedHashMap + Collections.synchronizedMap. If I do revisit this in the future, I'll probably work on extending ConcurrentHashMap in the same way LinkedHashMap extends HashMap.
+
+for set
+collections.synchronizedSet
