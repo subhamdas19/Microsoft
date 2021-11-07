@@ -1,1 +1,23 @@
+Design Search Engine
+Design Distribute Global Lock
+ Design a analytics platform that collect logs from multiple systems and provide insight from that 
+ OO design of an elevator. Write interfaces and implementation and logic. Some questions on testing.
+Design a phone book. Follow up: how do you store and retrieve data in Trie data structure?
 
+Given a circular LinkedList which is sorted, Given a node of this LL and an integer, WAP to insert the item in the LL so that the LL remains sorted after insertion, handle all edge cases.
+•	What’s NoSQL?
+
+•	Why you chose it over RDBMS?
+
+•	What can NoSQL achieve that RDBMS can not?
+Designing API throttling.
+ Designing a multi-game, multi-player service using a single threaded machine.
+Circular traversal of 2x2 matrix
+Implement queue using an array, in circular fashion (if end is reached, add to start of array if free)
+
+
+Sort a big file of integers using limited memory
+Designing a graph API
+Design a system that shows suggestion in search engine as you type.
+
+https://www.glassdoor.co.in/Interview/Microsoft-Software-Development-Engineer-II-Interview-Questions-EI_IE1651.0,9_KO10,42.htm?filter.jobTitleFTS=Software+Development+Engineer+II
