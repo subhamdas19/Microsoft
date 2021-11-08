@@ -48,3 +48,7 @@ Design a Special Logger System (LLD). This system receives a Log Message and a T
     What other modifications can be made in this system for making it ready for any such further adhoc requests and dealing with the blocked queue?
     We had a long discussion on the approaches. She had counter questions for all my suggestions.
     From this question, she wanted to check my overall understanding of the design for failure and other system design concepts.
+    
+    
+        Design chess Game
+    Design Gallery App for features like scrolling, opening image by clicking thumbnail
