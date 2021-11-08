@@ -40,3 +40,11 @@ Design a Special Logger System (LLD). This system receives a Log Message and a T
     He finally agreed for me to use a combination of MaxHeap(PriorityQueue) and HashMap.
     I finally coded the entire solution and we discussed all the edge cases.
     After a lot of discussion and modifications, he was finally satisfied with the final code.
+    
+    
+    There is a Windows Service running in Production. It polls the DB for the top 10 records (tasks) according to the priority and pushes those records in the queue for processing. The Priority values of the tasks can be P1, P2, and P3. Due to some reason, the queue is blocked. An adhoc request comes from the client to process a lower priority task(say, P2)
+
+    What steps can be taken to handle such adhoc requests when no such mechanism is built in and the queue is also blocked?
+    What other modifications can be made in this system for making it ready for any such further adhoc requests and dealing with the blocked queue?
+    We had a long discussion on the approaches. She had counter questions for all my suggestions.
+    From this question, she wanted to check my overall understanding of the design for failure and other system design concepts.
