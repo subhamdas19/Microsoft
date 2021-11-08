@@ -24,3 +24,19 @@ https://www.glassdoor.co.in/Interview/Microsoft-Software-Development-Engineer-II
 design url shortener
 Design a Logger ( LLD )
 Design Cric info website ( HLD & LLD )
+
+
+Design a Phonebook Application
+I listed all the features/requirement that I could think of.
+We went ahead and discussed each of these features and how we can achieve that.
+Finally, he asked me to focus on just 3 features – listContacts(), searchContacts(), displayFavourite()
+I suggested InMemory-DB (SQLite) for listContacts(), Trie for searchContacts() and MaxHeap for displayFavourite(), and then explained him the approach using each of these data structures.
+
+
+Design a Special Logger System (LLD). This system receives a Log Message and a Timestamp. The requirement is to discard the message if the same message is received within the 10 second time frame. But every time a message is received, its timer should reset and that timer should remain valid for the next 10 seconds of the last request.
+
+    For example, if a msg M1 was received at t=1. Now if same msg M1 is received at t = 9, it should be discarded, as it is within 10 sec. But now, this window should be valid upto t=19, as last M1 msg was received at t = 9.
+    We had a lot of discussion on the data structures which we can use.
+    He finally agreed for me to use a combination of MaxHeap(PriorityQueue) and HashMap.
+    I finally coded the entire solution and we discussed all the edge cases.
+    After a lot of discussion and modifications, he was finally satisfied with the final code.
