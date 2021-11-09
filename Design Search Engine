@@ -7,7 +7,8 @@ Design a phone book. Follow up: how do you store and retrieve data in Trie data 
 
 Given a circular LinkedList which is sorted, Given a node of this LL and an integer, WAP to insert the item in the LL so that the LL remains sorted after insertion, handle all edge cases.
 •	What’s NoSQL?
-
+type ahead suggestion
+https://www.youtube.com/watch?v=xrYTjaK5QVM
 •	Why you chose it over RDBMS?
 
 •	What can NoSQL achieve that RDBMS can not?
