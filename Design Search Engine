@@ -5,6 +5,9 @@ Design Distribute Global Lock
  OO design of an elevator. Write interfaces and implementation and logic. Some questions on testing.
 Design a phone book. Follow up: how do you store and retrieve data in Trie data structure?
 
+https://krishankantsinghal.medium.com/how-to-implement-phonebook-using-tries-data-structure-b19a83ac7f1e
+https://www.geeksforgeeks.org/implement-a-phone-directory/
+
 Given a circular LinkedList which is sorted, Given a node of this LL and an integer, WAP to insert the item in the LL so that the LL remains sorted after insertion, handle all edge cases.
 •	What’s NoSQL?
 type ahead suggestion
