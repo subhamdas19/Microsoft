@@ -17,6 +17,8 @@ Designing API throttling.
 Circular traversal of 2x2 matrix
 Implement queue using an array, in circular fashion (if end is reached, add to start of array if free)
 
+What's the difference between the JVM, JDK and JRE
+
 
 Sort a big file of integers using limited memory
 Designing a graph API
